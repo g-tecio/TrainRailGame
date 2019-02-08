@@ -123,7 +123,10 @@ GameObject:
   - component: {fileID: 111976880}
   - component: {fileID: 111976879}
   - component: {fileID: 111976878}
+<<<<<<< HEAD
   - component: {fileID: 111976881}
+=======
+>>>>>>> origin/master
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -191,6 +194,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!82 &111976881
 AudioSource:
   m_ObjectHideFlags: 0
@@ -286,6 +290,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> origin/master
 --- !u!1 &395610151
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,12 +317,20 @@ RectTransform:
   m_GameObject: {fileID: 395610151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.8410443, y: 1.002801, z: 0.14376825}
+=======
+  m_LocalScale: {x: 1.0052283, y: 0.9988017, z: 0.17183389}
+>>>>>>> origin/master
   m_Children:
   - {fileID: 504543967}
   - {fileID: 1459889455}
   m_Father: {fileID: 2045369943}
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 0
+>>>>>>> origin/master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -335,14 +349,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Color: {r: 0.081301175, g: 0.5742704, b: 0.8207547, a: 0.392}
+>>>>>>> origin/master
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: b1c34e7e0a34b1548a083655854fd57d, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: ddc2efa441db23c40af16b4a0d7dff1f, type: 3}
+>>>>>>> origin/master
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -384,15 +406,24 @@ RectTransform:
   m_GameObject: {fileID: 504543966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.64294255, y: 0.60007966, z: 0}
+=======
+  m_LocalScale: {x: 1.1, y: 1, z: 0}
+>>>>>>> origin/master
   m_Children: []
   m_Father: {fileID: 395610152}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 17, y: -120}
   m_SizeDelta: {x: 405, y: 410}
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 600}
+>>>>>>> origin/master
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &504543968
 AudioSource:
@@ -403,7 +434,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
+<<<<<<< HEAD
   m_audioClip: {fileID: 8300000, guid: 05cdcbbb0016835419f4243a6f07621c, type: 3}
+=======
+  m_audioClip: {fileID: 8300000, guid: 6444f601104c3fe45922b1fcf53db4f3, type: 3}
+>>>>>>> origin/master
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -571,7 +606,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: a5b29a8e1a307ab42b41d9a54487b992, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 69f37dbfdcae3ab4684030565db7b09d, type: 3}
+>>>>>>> origin/master
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -631,6 +670,7 @@ RectTransform:
   m_AnchoredPosition: {x: 360, y: 436.12463}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &727870319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5256,6 +5296,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> origin/master
 --- !u!1 &1223602663
 GameObject:
   m_ObjectHideFlags: 0
@@ -5350,8 +5392,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 176, y: -318}
   m_SizeDelta: {x: 50, y: 50}
+=======
+  m_AnchoredPosition: {x: 0, y: -448}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> origin/master
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459889456
 MonoBehaviour:
@@ -5450,7 +5497,11 @@ Canvas:
   m_GameObject: {fileID: 2045369939}
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_RenderMode: 2
+=======
+  m_RenderMode: 0
+>>>>>>> origin/master
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -5470,15 +5521,26 @@ RectTransform:
   m_GameObject: {fileID: 2045369939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.01353, y: 0.01353, z: 1}
   m_Children:
   - {fileID: 727870320}
+=======
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+>>>>>>> origin/master
   - {fileID: 395610152}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0.01, y: 0.044}
   m_SizeDelta: {x: 491.024, y: 736.1}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+>>>>>>> origin/master

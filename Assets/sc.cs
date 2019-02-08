@@ -18,7 +18,11 @@ public class sc : MonoBehaviour {
         CountText = GameObject.Find("CountText").GetComponent<Text>();
 
         aber = 0;
+<<<<<<< HEAD
         CountText.text = "Points " + cont.ToString();
+=======
+        CountText.text = "Points: " + cont.ToString();
+>>>>>>> origin/master
 
 
     }
@@ -28,7 +32,11 @@ public class sc : MonoBehaviour {
     {
         //print(cont);
         
+<<<<<<< HEAD
         CountText.text = "Points " + aber;
+=======
+        CountText.text = "Points: " + aber;
+>>>>>>> origin/master
     }
    public void sum(int point)
     {

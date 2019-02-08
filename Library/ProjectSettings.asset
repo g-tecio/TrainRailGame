@@ -8,11 +8,19 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
+<<<<<<< HEAD
   defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: CartWheel
+=======
+  defaultScreenOrientation: 4
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: DefaultCompany
+>>>>>>> origin/master
   productName: Train Rail
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -151,7 +159,10 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< HEAD
     Android: com.traiRail.company
+=======
+>>>>>>> origin/master
     Standalone: com.Company.ProductName
   buildNumber: {}
   AndroidBundleVersionCode: 1
@@ -258,6 +269,7 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
+<<<<<<< HEAD
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
@@ -351,6 +363,9 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 1
       m_SubKind: 
+=======
+  m_BuildTargetPlatformIcons: []
+>>>>>>> origin/master
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
@@ -708,7 +723,11 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     Build: 1
+<<<<<<< HEAD
     Collab: 1
+=======
+    Collab: 0
+>>>>>>> origin/master
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

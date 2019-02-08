@@ -12,17 +12,23 @@ public class MoveTrain : MonoBehaviour {
     public GameObject prizeGenerator1;
     public GameObject prizeGenerator2;
     public GameObject prizeGenerator3;
+<<<<<<< HEAD
     public GameObject enemyGeneratorUp;
 
     public GameObject buttonShootFront;
 
     public GameObject buttonShootBehind;
+=======
+>>>>>>> origin/master
     public float toRight;
     public float pos;
     public float fallMultiplier = 1.0f;
     public Text LooseText;
     public GameObject txt;
+<<<<<<< HEAD
     public GameObject btnPause;
+=======
+>>>>>>> origin/master
   
 
 
@@ -30,7 +36,11 @@ public class MoveTrain : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+<<<<<<< HEAD
       //LooseText= GameObject.Find("LooseText").GetComponent<Text>();
+=======
+      // LooseText= GameObject.Find("LooseText").GetComponent<Text>();
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
     
         
@@ -38,6 +48,7 @@ public class MoveTrain : MonoBehaviour {
 
     }
 
+<<<<<<< HEAD
     public void movementLeft()
     {
         bool gamePlaying = game.GetComponent<GameController>().gameState == GameController.GameState.Playing;
@@ -102,6 +113,8 @@ public class MoveTrain : MonoBehaviour {
 
 
 
+=======
+>>>>>>> origin/master
     // Update is called once per frame
     void Update()
     {
@@ -189,7 +202,11 @@ public class MoveTrain : MonoBehaviour {
         {
             Vector3 position = this.transform.position;
             position.x = 0.42f;
+<<<<<<< HEAD
                 this.transform.position = position;
+=======
+            this.transform.position = position;
+>>>>>>> origin/master
 
 
         }
@@ -203,16 +220,22 @@ public class MoveTrain : MonoBehaviour {
             updateState("Die");
             game.GetComponent<GameController>().gameState=GameController.GameState.Ended;
             txt.SetActive(true);
+<<<<<<< HEAD
             btnPause.SetActive(false);
             buttonShootFront.SetActive(false);
             buttonShootBehind.SetActive(false);
+=======
+>>>>>>> origin/master
             enemyGenerator1.SendMessage("CancelGenerator1", true);
             enemyGenerator2.SendMessage("CancelGenerator2", true);
             enemyGenerator3.SendMessage("CancelGenerator3", true);
             prizeGenerator1.SendMessage("CancelPrizeGenerator1", true);
             prizeGenerator2.SendMessage("CancelPrizeGenerator2", true);
             prizeGenerator3.SendMessage("CancelPrizeGenerator1", true);
+<<<<<<< HEAD
              enemyGeneratorUp.SendMessage("CancelGeneratorYeti", true);
+=======
+>>>>>>> origin/master
 
         }
         

@@ -23,7 +23,10 @@ GameObject:
   - component: {fileID: 50699414048904076}
   - component: {fileID: 114836050451078666}
   - component: {fileID: 60441197122546786}
+<<<<<<< HEAD
   - component: {fileID: 82776965545270548}
+=======
+>>>>>>> origin/master
   m_Layer: 0
   m_Name: EnemYeti
   m_TagString: Enemy
@@ -125,6 +128,7 @@ PolygonCollider2D:
       - {x: -0.46870583, y: 0.10697746}
       - {x: -0.30988955, y: 0.12529802}
       - {x: -0.03165996, y: 0.36412287}
+<<<<<<< HEAD
 --- !u!82 &82776965545270548
 AudioSource:
   m_ObjectHideFlags: 1
@@ -220,6 +224,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> origin/master
 --- !u!95 &95119208367551700
 Animator:
   serializedVersion: 3
@@ -249,7 +255,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179ea1a0c02c58d4da55578f7f80d4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   velocity: 1.2
+=======
+  velocity: 1.7
+>>>>>>> origin/master
 --- !u!212 &212889629079078338
 SpriteRenderer:
   m_ObjectHideFlags: 1

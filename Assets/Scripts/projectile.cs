@@ -14,6 +14,7 @@ public class projectile : MonoBehaviour {
     void Start () {
 		
 	}
+<<<<<<< HEAD
 
     public void shootBehind()
     {
@@ -63,6 +64,19 @@ public class projectile : MonoBehaviour {
                 Instantiate(bullet, shotPoint.position, Quaternion.identity);
                 timeBtwShots = startTimeBtwShots;
             }*/
+=======
+	
+	// Update is called once per frame
+	void Update () {
+        //Disparar en direccion y calcular cada cuando se puede ahcer
+        if (timeBtwShots <= 0)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Instantiate(bullet, shotPoint.position, Quaternion.identity);
+                timeBtwShots = startTimeBtwShots;
+            }
+>>>>>>> origin/master
            if (Input.GetKeyDown(KeyCode.Space))
             {
 

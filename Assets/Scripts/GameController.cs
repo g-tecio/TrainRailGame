@@ -25,6 +25,7 @@ public class GameController : MonoBehaviour {
             gameState = GameState.Playing;
 
         }*/
+<<<<<<< HEAD
         if (Background != null)
         {
             if (gameState == GameState.Playing)
@@ -34,6 +35,14 @@ public class GameController : MonoBehaviour {
                 float finalSpeed2 = parallaxSpeed2 * Time.deltaTime;
                 RoadCenter.uvRect = new Rect(0f, (RoadCenter.uvRect.y + finalSpeed) * 1, 1f, 1f);
             }
+=======
+        if (gameState == GameState.Playing)
+        {
+            float finalSpeed = parallaxSpeed * Time.deltaTime;
+            Background.uvRect = new Rect(0f, Background.uvRect.y + finalSpeed, 1f, 1f);
+            float finalSpeed2 = parallaxSpeed2 * Time.deltaTime;
+            RoadCenter.uvRect = new Rect(0f, (RoadCenter.uvRect.y + finalSpeed) * 1, 1f, 1f);
+>>>>>>> origin/master
         }
     }
 

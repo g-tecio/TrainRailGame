@@ -10,7 +10,11 @@ public class EnemyGeneratorUpController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+<<<<<<< HEAD
        
+=======
+       ;
+>>>>>>> origin/master
         InvokeRepeating("CreateEnemyYeti", 3f, generatorTime);
     }
 
@@ -24,6 +28,7 @@ public class EnemyGeneratorUpController : MonoBehaviour {
     {
         Instantiate(YetiPrefab, transform.position, Quaternion.identity);
     }
+<<<<<<< HEAD
     //metodo apra dejar de invocar una vez que muera el personaje, el metodo clean es apra limpiar enemigos que quedaron en pantallas
     public void CancelGeneratorYeti(bool clean = false)
     {
@@ -38,4 +43,6 @@ public class EnemyGeneratorUpController : MonoBehaviour {
             }
         }
     }
+=======
+>>>>>>> origin/master
 }

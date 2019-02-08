@@ -38,7 +38,10 @@ GameObject:
   - component: {fileID: 50851701907133276}
   - component: {fileID: 58729109059524798}
   - component: {fileID: 114967661328665680}
+<<<<<<< HEAD
   - component: {fileID: 82584230898824304}
+=======
+>>>>>>> origin/master
   m_Layer: 0
   m_Name: PriceObject
   m_TagString: Prize
@@ -108,6 +111,7 @@ CircleCollider2D:
   m_Offset: {x: 0.24621041, y: 1.1387239}
   serializedVersion: 2
   m_Radius: 0.23180616
+<<<<<<< HEAD
 --- !u!82 &82584230898824304
 AudioSource:
   m_ObjectHideFlags: 1
@@ -203,6 +207,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> origin/master
 --- !u!114 &114967661328665680
 MonoBehaviour:
   m_ObjectHideFlags: 1
